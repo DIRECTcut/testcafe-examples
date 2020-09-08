@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <div id="color-box" style="background-color: rgb(0, 0, 0);"><br></div>
+    <button id="btnRgb" onclick="changeColorRgb();">Change color (rgb)!</button>
+
+<script>
+    changeColorRgb = () => {
+        const div = document.getElementById('color-box');
+        
+        div.style.backgroundColor = 'rgb(255, 45, 0)';
+    };
+</script>
+</body>
+</html>
