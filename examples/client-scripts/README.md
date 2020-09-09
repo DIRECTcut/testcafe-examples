@@ -1,6 +1,6 @@
 # Inject Custom Client Scripts
 
-These examples show how to inject custom scripts into tested webpages.
+This example shows how to inject custom scripts into tested webpages.
 
 ## Inject a Node.js Module into a Tested Page
 
@@ -15,3 +15,16 @@ The [fixture.clientScripts](https://devexpress.github.io/testcafe/documentation/
 Then, the [t.eval](https://devexpress.github.io/testcafe/documentation/test-api/obtaining-data-from-the-client/#one-time-client-code-execution) method runs client-side code that uses the [defaults](https://lodash.com/docs/4.17.15#defaults) method from `lodash`. The result is checked in test code with the [ok](https://devexpress.github.io/testcafe/documentation/test-api/assertions/assertion-api.html#ok) assertion.
 
 > Browsers can execute the `lodash` module because it implements the [UMD](https://github.com/umdjs/umd) API. You can use TestCafe to inject any UMD-compatible module into the tested pages.
+
+## TestCafe Functions and Methods Employed in This Example
+
+1. Test Structure:
+    - [fixture](https://devexpress.github.io/testcafe/documentation/reference/test-api/global/fixture.html) Function
+    - [test](https://devexpress.github.io/testcafe/documentation/reference/test-api/global/test.html) Function
+2. Actions:
+    - (list of items w/ links)
+3. Assertion and Evaluation:
+    - [t.eval](https://devexpress.github.io/testcafe/documentation/reference/test-api/testcontroller/eval.html) Method
+    - [t.expect.eql](https://devexpress.github.io/testcafe/documentation/reference/test-api/testcontroller/expect/eql.html) Method
+4. Custom Scripts:
+    - [Fixture.clientScripts](https://devexpress.github.io/testcafe/documentation/reference/test-api/fixture/clientscripts.html) Method
