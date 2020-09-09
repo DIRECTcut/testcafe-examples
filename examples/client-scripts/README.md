@@ -2,7 +2,7 @@
 
 These examples show how to inject custom scripts into tested webpages.
 
-## Inject a Node.js module into a tested page
+## Inject a Node.js Module into a Tested Page
 
 **Test Code**: [inject-a-nodejs-module.js](inject-a-nodejs-module.js)
 

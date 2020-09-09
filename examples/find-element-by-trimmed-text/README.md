@@ -1,4 +1,4 @@
-# Find Element By Trimmed Text
+# Find Element by Trimmed Text
 
 **Test Code**: [index.js](index.js)
 

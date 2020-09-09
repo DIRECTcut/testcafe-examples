@@ -2,7 +2,7 @@
 
 These examples show how to access DOM element's properties and verify them with assertions.
 
-## Check element's markup
+## Check Element's Markup
 
 **Test Code**: [check-element-markup.js](check-element-markup.js)
 

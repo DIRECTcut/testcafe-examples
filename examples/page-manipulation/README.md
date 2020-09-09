@@ -1,8 +1,8 @@
-## Page Manipulation
+# Manipulate Page
 
 TestCafe allows you to [execute custom code](https://devexpress.github.io/testcafe/documentation/test-api/obtaining-data-from-the-client/) on tested pages. This code can use the DOM or browser API to obtain data or manipulate the page state.
 
-## Reload the tested page
+## Reload the Tested Page
 
 **Test Code**: [reload-page.js](reload-page.js)
 

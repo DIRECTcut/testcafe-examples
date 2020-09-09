@@ -1,4 +1,4 @@
-# Wait For File Download
+# Wait for File Download
 
 **Test Code**: [test.js](test.js)
 
